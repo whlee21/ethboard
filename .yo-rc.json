@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "io.blocko.ethboard",
+      "nativeLanguage": "ko"
+    },
+    "jhipsterVersion": "5.3.1",
+    "applicationType": "monolith",
+    "baseName": "ethboard",
+    "packageName": "io.blocko.ethboard",
+    "packageFolder": "io/blocko/ethboard",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODk3MDUzMzdmNzYxMWViODY5ZTBmYWEyYzc2NjJjMmJmOGVjZmI0ZDkzNzE2NTIwNzYwNTJkMmVhZWE3ZWJhZjA0YzFmMGQ3ODgwYmYyMWYyOTQwZmQzYWI2ODA4OGNmMjgxMDJhMjA1MTlmNWMyNTUwMzczMzgzMDhjMDg0MGQ=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "ko",
+    "languages": [
+      "ko",
+      "en"
+    ]
+  }
+}
