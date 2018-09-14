@@ -38,6 +38,8 @@ public class CacheConfiguration {
             cm.createCache(io.blocko.ethboard.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(io.blocko.ethboard.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(io.blocko.ethboard.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(io.blocko.ethboard.domain.Wallet.class.getName(), jcacheConfiguration);
+            cm.createCache(io.blocko.ethboard.domain.Post.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }
